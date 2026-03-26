@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" defer>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe!</h1>
+    </header>
+    <main>
+        <div class="playerArea">
+            <div class="displayBar" id="P1DisplayBar">
+            </div>
+            <div class="playerName" id="P1Name">Testo</div>
+        </div>
+        <div id="mainGameboard">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+        <div class="playerArea">
+            <div class="displayBar" id="P2DisplayBar">
+            </div>
+            <div class="playerName" id="P2Name">Testo</div>
+        </div>
+        <dialog id="startingDialog">
+            <h1>Welcome to Tic Tac Toe!</h1>
+            <p>Please input player one and two names!</p>
+            <label for="player1Name">Player1: </label><input type="text" id="player1Name">
+            <label for="player2Name">Player2: </label><input type="text" id="player2Name">
+            <button type="button">Submit Names</button>
+        </dialog>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
