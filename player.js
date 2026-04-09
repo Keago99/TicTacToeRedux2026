@@ -2,5 +2,6 @@
 
 
 function createPlayer(){
-
+    const playerName = null;
+    const playerSymbol = null;
 }
