@@ -29,7 +29,21 @@ main{
 }
 
 #startingDialog{
+    text-align: center;
     width: 500px;
     height: 300px;
-    
+}
+
+.gridDialog{
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.gridDialog input{
+    margin-bottom: 10px;
+}
+
+.symbolInput{
+    width: 40px;
+    justify-self: center;
 }

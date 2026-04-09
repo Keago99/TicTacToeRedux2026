@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" defer>
-    <script src="scripts.js" defer></script>
+    <script src="scripts.js" defer type="module"></script>
 </head>
 <body>
     <header>
@@ -35,9 +35,16 @@
         </div>
         <dialog id="startingDialog">
             <h1>Welcome to Tic Tac Toe!</h1>
-            <p>Please input player one and two names!</p>
+            <p>Please input names for both players</p>
+            <div class= gridDialog>
             <label for="player1Name">Player1: </label><input type="text" id="player1Name">
             <label for="player2Name">Player2: </label><input type="text" id="player2Name">
+            </div>
+            <p>Please input symbols for both players</p>
+            <div class="gridDialog">
+                <label for="player1Symbol">Player1:</label><input type="text" id="player1Symbol" maxlength="1" size="1" class="symbolInput">
+                <label for="player2Symbol">Player2:</label><input type="text" id="player2Symbol" maxlength="1" size="1" class="symbolInput">
+            </div>
             <button type="button">Submit Names</button>
         </dialog>
     </main>
