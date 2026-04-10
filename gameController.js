@@ -1,5 +1,8 @@
 // all game logic will go here
 
+const playerTurn = null;
+const winner = null;
+
 
 function playGame(){
 
@@ -8,4 +11,8 @@ function playGame(){
     //runs the placeMarker method, if return good swaps player turn
     // checks for a win before swaping
     // repeat until winner
+}
+
+function checkWinner(){
+    
 }
