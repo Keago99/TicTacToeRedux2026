@@ -24,16 +24,18 @@ export function setPlayers(){
         return;
     }
 
-    if (player1Name == player2Name){
+    if (player1Name === player2Name){
         alert("Names must be unique!");
+        return;
     }
 
-    if (player1Symbol == player2Symbol){
-        alert("Symbols must be unqiue!");
+    if (player1Symbol === player2Symbol){
+        alert("Symbols must be unique!");
+        return;
     }
 
     const player1 = createPlayer(player1Name, player1Symbol);
     const player2 = createPlayer(player2Name, player2Symbol);
 
-    return player1, player2;
+    return {player1, player2};
 }
